@@ -1,0 +1,324 @@
+
+*{box-sizing: border-box;}
+
+body {
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(0, 0, 197);  
+    width: 100%;
+    height: 100%;
+    margin-bottom: 155px;
+    padding: 0 auto;
+}
+
+.nav {
+    /* position: relative;
+    display: inline-flex;
+    margin-top: 33px;
+    margin-bottom: 50px;  
+    padding: left */
+}
+
+.image1 {
+    margin-right: 90px;
+    margin-left: 15px;
+}
+
+img {
+    position: absolute;
+    padding-top: 32px; 
+}
+
+a {
+    text-decoration-line: none;
+    color: rgb(0, 143, 226);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.container-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    grid-column-gap: 10px;
+}
+
+.contact {
+    margin-left: 20px;
+}
+
+.container {
+    padding-left: 30px;
+    font-family:"Playfair Display", serif;
+}
+
+.journey {
+    color: white;
+    font-size: 67px;
+    line-height: 0.85;
+    padding-top: 70px;  
+    height: 230px;
+}  
+
+.world {
+    color: rgb(0, 143, 226);  
+}
+
+.hello {
+    color: white;
+    font-weight: 200;
+    font-size: 24px;
+    width: 450px;
+    line-height: 1.1;
+    height: 110px;  
+}
+
+.view {
+    background-color:  rgb(0, 0, 197); 
+    color: white;
+    width: 185px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    height: 55px;
+    border: 1px solid white;
+    margin-top: 2px;
+    padding-right: 5px;
+}
+
+.photo img {
+   position: relative;
+   width: 380px; 
+   height: 470px; 
+
+} 
+.photodiv{
+    position: relative;
+    bottom: 90px;    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-row-gap: 15px;
+    z-index: 1;
+}
+
+.jared {
+    font-family:"Playfair Display", serif;
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+    width: auto;
+    text-align: center;
+}
+
+.sandy {
+    position: relative;
+    background-color:  #254466;
+    margin-top: -35%;
+    padding-bottom: 20%;
+    padding-top: 25%;
+}
+
+h3 {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    position: relative;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: #254466;
+    font-size: 47px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.about {
+    color: #2b70b9;
+    font-size: 19px;
+    position: relative;
+    margin-top: -40px;
+    width: 380px;
+    margin-left: 40px;
+    height: 930px;
+}
+
+.info {
+    background-color: #549CEA;
+    position:relative;
+    margin-top:80px;
+}
+
+.contactme {
+    color: white;
+    font-size: 45px;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.tab {
+    color: white;
+    padding-left: 40px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: -20px;
+    width: 400px;
+    height: 90px;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 10px;
+    grid-template-rows: 70px 70px 70px 70px 90px ; 
+}
+
+.b {
+    width: 370px;
+    font-size:17px;
+    box-shadow: none;
+    padding-left: 20px;
+}
+
+.submit {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size:17px;
+    font-weight: bold;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid white;
+    color: white;
+    height: 55px;
+    width: 180px;
+    margin-bottom: 60px;
+    margin-top: -20px;
+}
+
+footer {
+    color: white;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background-color:  #04376d;
+    text-align: center; 
+    padding-left: 20px;
+    height: 80px;
+    padding-top: 40px;
+    font-weight: normal;
+}
+         
+    @media (min-width: 1280px) {
+        .image1 { 
+            padding-top: 32px;
+            padding-left: 36px;              
+}}
+
+@media (min-width: 1024px) {
+    .journey {
+        font-size: 100px;
+        line-height: 0.85;
+        width: 650px;
+}}
+    @media (min-width: 1150px) {
+        .journey {
+            width: 800px;
+            font-size: 100px;
+            margin-top: 100px;
+            padding-top: 53px;
+            padding-left: 39px;  
+            height: 196px;
+}}
+         
+@media (min-width: 1024px) {
+    .hello {
+        width: 650px;
+}}      
+    @media (min-width: 1150px) {
+        .hello {
+            width: 850px;
+            height: 60px;
+            padding-left: 39px;
+            line-height: 1.2;
+            height: 60px;
+}}
+                                       
+    @media (min-width: 1150px) {
+        .view {               
+            margin-left: 39px;
+            margin-top: 2px;
+            padding-right: 5px; 
+}}
+        
+    @media (min-width: 1150px) {
+        .photodiv { 
+            display:grid;
+            grid-template-columns: 380px 380px 380px;
+            grid-gap: 0 35px;
+            justify-content: center;          
+}}
+
+    @media (min-width: 1150px) {
+        .photo img { 
+        width: 380px; 
+        height: 520px;  
+}}
+
+    @media (min-width: 1150px) {
+        .jared {
+        width: 95%;
+        padding-left: 50px; 
+}}
+
+    @media (min-width: 1150px) {
+        .sandy {
+        margin-top: -12%;
+        padding-bottom: 10px;
+        padding-top: 120px;          
+}}
+
+    @media (min-width: 1150px) {
+        h3 {
+        padding-bottom: 50px;
+        margin-top: 0px;       
+}}
+
+    @media (min-width: 1150px) {
+        .about {
+        width: 1200px;
+        padding-top: 10px;
+        padding-left: 219px;
+        max-height: 450px;
+}} 
+
+    @media (min-width: 1150px) {
+        h2 {
+            font-size: 70px;
+}}
+
+    @media (min-width: 1150px) {
+        .tab {
+        width: 1100px;
+        padding-left: 300px        
+}}
+
+    @media (min-width: 1150px) {
+        .details {
+        display:grid;
+        grid-template-columns: 380px 380px;
+        grid-gap: 20px 20px;
+        justify-content: center;    
+}}
+
+    @media (min-width: 1150px) {
+        .some {
+        width: 780px;
+}}
